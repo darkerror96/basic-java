@@ -16,6 +16,9 @@ public class ReverseString {
 		for (int i = a.length() - 1; i >= 0; i--) {
 			System.out.print(a.charAt(i));
 		}
+		
+		StringBuilder sb = new StringBuilder(a);
+		System.out.println("\nStringBUilder Reverse - " + sb.reverse());
 
 		sc.close();
 	}
