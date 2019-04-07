@@ -24,5 +24,9 @@ public class StaticNullMagic {
 
 		Abc a = null;
 		a.staticMethod();
+		
+		// Check which statement will give you complie time error
+		Integer i = new Integer(null);
+		String s = new String(null);
 	}
 }
